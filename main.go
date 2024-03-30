@@ -1,24 +1,11 @@
 package main
 
-import (
-	"fmt"
-)
-
-type Foo interface {
-	Say()
-}
-
-type Dog struct {
-	name string
-}
-
-func (d Dog) Say() {
-	fmt.Println(d.name + " say hi")
-}
-
 func main() {
 
+	// 1 1 2 3 5 8 13 21 34 55
 	// example.Sampling()
 	// example.Loterry()
 	// example.Calc()
+	// example.ExecMakeSuffixFunc()
+
 }
