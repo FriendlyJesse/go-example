@@ -1,11 +1,15 @@
 package main
 
-func main() {
+import (
+	"example.com/m/v2/example"
+)
 
-	// 1 1 2 3 5 8 13 21 34 55
+func main() {
 	// example.Sampling()
 	// example.Loterry()
 	// example.Calc()
 	// example.ExecMakeSuffixFunc()
+	// example.ExecFindData()
+	example.ExecRescue()
 
 }
