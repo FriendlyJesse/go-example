@@ -18,5 +18,6 @@ func main() {
 	// example.ExecWriteJson() // 写 json
 	// example.ExecReadJson() // 读 json
 	// example.ExecMemo() // 备忘录
-	example.ExecStu()
+	// example.ExecStu() // 本地 json 存储
+	example.ExecMysql() // mysql
 }
