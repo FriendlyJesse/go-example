@@ -1,5 +1,7 @@
 package main
 
+import "example.com/m/v2/example"
+
 func main() {
 	// example.Sampling() // 产品抽样
 	// example.Loterry() // 简易彩票
@@ -16,4 +18,5 @@ func main() {
 	// example.ExecWriteJson() // 写 json
 	// example.ExecReadJson() // 读 json
 	// example.ExecMemo() // 备忘录
+	example.ExecStu()
 }
