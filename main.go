@@ -20,5 +20,6 @@ func main() {
 	// example.ExecMemo() // 备忘录
 	// example.ExecStu() // 本地 json 存储
 	// example.ExecMysql() // mysql
-	example.ExecRedis() // redis
+	// example.ExecRedis() // redis
+	example.ExecAutoTest() // 爬虫
 }
