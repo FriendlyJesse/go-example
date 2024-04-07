@@ -22,5 +22,8 @@ func main() {
 	// example.ExecMysql() // mysql
 	// example.ExecRedis() // redis
 	// example.ExecAutoTest() // selenium 爬虫
-	example.ExecRequest() // net/http 爬虫
+	// example.ExecRequest() // net/http 爬虫
+	// example.ExecTCP() // TCP
+	// example.ExecUDP() // UDP
+	example.ExecHTTP() // HTTP
 }
