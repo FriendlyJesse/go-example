@@ -19,11 +19,12 @@ func main() {
 	// example.ExecReadJson() // 读 json
 	// example.ExecMemo() // 备忘录
 	// example.ExecStu() // 本地 json 存储
-	// example.ExecMysql() // mysql
+	example.ExecMysql() // mysql
 	// example.ExecRedis() // redis
 	// example.ExecAutoTest() // selenium 爬虫
 	// example.ExecRequest() // net/http 爬虫
 	// example.ExecTCP() // TCP
 	// example.ExecUDP() // UDP
-	example.ExecHTTP() // HTTP
+	// example.ExecHTTP() // HTTP
+	// example.ExecCasbin() // casbin
 }
