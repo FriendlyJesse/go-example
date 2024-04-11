@@ -1,6 +1,6 @@
 package main
 
-import "example.com/m/v2/example"
+import wsexample "example.com/m/v2/example/websocet"
 
 func main() {
 	// example.Sampling() // 产品抽样
@@ -19,7 +19,7 @@ func main() {
 	// example.ExecReadJson() // 读 json
 	// example.ExecMemo() // 备忘录
 	// example.ExecStu() // 本地 json 存储
-	example.ExecMysql() // mysql
+	// example.ExecMysql() // mysql
 	// example.ExecRedis() // redis
 	// example.ExecAutoTest() // selenium 爬虫
 	// example.ExecRequest() // net/http 爬虫
@@ -27,4 +27,7 @@ func main() {
 	// example.ExecUDP() // UDP
 	// example.ExecHTTP() // HTTP
 	// example.ExecCasbin() // casbin
+	// wsexample.ExecWSServer() // websocket server
+	// wsexample.ExecWSClient() // websocket client
+	wsexample.ExecWSServerHub() // 多用户 websocket
 }
