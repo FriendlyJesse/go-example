@@ -1,6 +1,6 @@
 package main
 
-import wsexample "example.com/m/v2/example/websocet"
+import "example.com/m/v2/example/rabbitMq"
 
 func main() {
 	// example.Sampling() // 产品抽样
@@ -29,5 +29,7 @@ func main() {
 	// example.ExecCasbin() // casbin
 	// wsexample.ExecWSServer() // websocket server
 	// wsexample.ExecWSClient() // websocket client
-	wsexample.ExecWSServerHub() // 多用户 websocket
+	// wsexample.ExecWSServerHub() // 多用户 websocket
+	rabbitMq.ExecProducer() // rabbitmq producer
+	// rabbitMq.ExecConsumer() // rabbitmq producer
 }
