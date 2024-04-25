@@ -1,5 +1,7 @@
 package main
 
+import "example.com/m/v2/example"
+
 func main() {
 	// example.Sampling() // 产品抽样
 	// example.Loterry() // 简易彩票
@@ -31,4 +33,5 @@ func main() {
 	// rabbitMq.ExecProducer() // rabbitmq producer
 	// rabbitMq.ExecConsumer() // rabbitmq producer
 	// example.ExecQPS()
+	example.ExecChromedp()
 }
