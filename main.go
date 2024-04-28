@@ -32,6 +32,7 @@ func main() {
 	// wsexample.ExecWSServerHub() // 多用户 websocket
 	// rabbitMq.ExecProducer() // rabbitmq producer
 	// rabbitMq.ExecConsumer() // rabbitmq producer
-	// example.ExecQPS()
-	example.ExecChromedp()
+	// example.ExecQPS() // QPS
+	// example.ExecChromedp() // chrome screenshot
+	example.ExecBigFileReader() // big file reader
 }
